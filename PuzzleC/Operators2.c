@@ -18,8 +18,6 @@ int main(){
 	Y = Z = 0;
 	PRINT(2,3,x = y == z, (X = (Y == Z)) );
 
-	//Operator 2.4
-	//compare y with z then compares with x and set x
 	x == ( y == z );  
 	PRINT(2,4,x == ( y == z), (X == (Y == Z)));
 
