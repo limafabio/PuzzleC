@@ -6,7 +6,6 @@ int main()
 	int x,y,z;
 	int X,Y,Z;
 
-	//Operators 4.1
 	x = 03; y = 02; z = 01;
 	X = 03; Y = 02; Z = 01;
 	PRINT(4,1,(x | y & z), (X | (Y & Z)) );
@@ -14,7 +13,7 @@ int main()
 
 	PRINT(4,2,(x | y & ~ z),(X | ( Y  & (~Z) )) );
 
-	PRINT(4,3,(x ^ y * -z), (X ^ (Y * -Z)) );
+	PRINT(4,3,(x ^ y & -z), (X ^ (Y & -Z)) );
 
 	PRINT(4,4,(x & y && z), (X & (Y && Z)) );
 
