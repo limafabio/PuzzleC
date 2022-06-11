@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.15)
 project(Basic1)
-add_executable(Basic1.1 BasicTypes1.c)
+add_executable(Basic1 BasicTypes1.c)
 project(Basic2)
 add_executable(Basic2 BasicTypes2.c)

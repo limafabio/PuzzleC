@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-#define PRINT(format,x) printf("x = %format\n",x);
+#define PRINT(format,x) printf("x = %"#format"\n",x)
 
 int integer = 5;
 char character = '5';
