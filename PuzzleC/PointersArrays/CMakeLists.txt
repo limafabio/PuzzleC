@@ -1,3 +1,5 @@
 cmake_minimum_required(VERSION 3.15)
 project(PointersArray1)
 add_executable(PointersArray1 PointersArrays1.c)
+project(PointersArray2)
+add_executable(PointersArray2 PointersArrays2.c)
