@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.15)
+project(Preprocessor1)
+add_executable(Preprocessor1 Preprocessor1.c)
+project(Preprocessor2)
+add_executable(Preprocessor2 Preprocessor2.c)
